@@ -181,8 +181,8 @@ h1 span,
     position: absolute;
     top: 50%;
     right: 13%;
-    width: min(29vw, 310px);
-    height: 390px;
+    width: min(32vw, 340px);
+    height: 430px;
     transform: translateY(-53%);
 }
 
@@ -263,7 +263,6 @@ h1 span,
     font-family: "Playfair Display", serif;
     font-size: 16px;
     font-style: italic;
-    transform: rotate(-6deg);
 }
 
 .portrait-sparkle {
@@ -452,8 +451,8 @@ h1 span,
         top: auto;
         right: auto;
         align-self: flex-end;
-        width: min(52vw, 210px);
-        height: 270px;
+        width: min(60vw, 240px);
+        height: 320px;
         margin: 25px 14px 0 0;
         transform: none;
     }
