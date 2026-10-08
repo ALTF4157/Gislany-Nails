@@ -257,12 +257,14 @@ h1 span,
 
 .portrait-caption {
     position: absolute;
-    right: -12px;
-    bottom: 0;
+    left: 50%;
+    bottom: -18px;
+    transform: translateX(-50%);
     color: var(--rose-dark);
     font-family: "Playfair Display", serif;
     font-size: 16px;
     font-style: italic;
+    white-space: nowrap;
 }
 
 .portrait-sparkle {
