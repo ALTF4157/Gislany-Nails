@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f8f1ed">
+    <meta name="description" content="Conheça os serviços e valores de unhas da Gislany Lima Nail Studio.">
+    <title>Serviços e valores | Gislany Lima Nail Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="#" aria-label="Gislany Lima Nail Studio, início">
+            <span class="brand-mark" aria-hidden="true">g.</span>
+            <span class="brand-name">Gislany Lima<span>nail studio</span></span>
+        </a>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="page-title">
+            <div class="hero-content">
+                <p class="eyebrow"><span></span> Cuidado em cada detalhe</p>
+                <h1 id="page-title">Gislany Lima<br> Nail Design<span>.</span></h1>
+                <p class="hero-description">Mais do que cuidado com as unhas, eu realço a sua beleza e elevo a sua autoestima. Cada detalhe é feito com amor, dedicção e propósito.</p>
+                <a class="button" href="#servicos">Ver serviços e valores <span aria-hidden="true">↓</span></a>
+            </div>
+            <div class="hero-art">
+                <div class="portrait-frame">
+                    <img class="owner-photo" src="Gislany Lima.jpg" alt="Gislany Lima, nail designer" hidden>
+                    <div class="portrait-placeholder">
+                        <span class="placeholder-mark" aria-hidden="true">g.</span>
+                        <p>Adicione a foto da Gislany Lima<br>com o nome <strong>Gislany Lima.jpg</strong></p>
+                    </div>
+                </div>
+                <span class="portrait-caption">com carinho, Gislany Lima</span>
+                <span class="portrait-sparkle" aria-hidden="true">✳</span>
+            </div>
+            <div class="hero-footer"><span>BELEZA • AUTOCUIDADO • AUTOEXPRESSÃO</span></div>
+        </section>
+
+        <section class="services" id="servicos" aria-labelledby="services-title">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">Escolha o seu cuidado</p>
+                    <h2 id="services-title">Serviços <span>&amp;</span> valores</h2>
+                </div>
+                <p class="section-note">Um cuidado especial, do seu jeito.</p>
+            </div>
+
+            <div class="service-grid">
+                <article class="service-card service-card-featured">
+                    <div class="card-heading">
+                        <span class="card-number">01</span>
+                        <span class="card-icon" aria-hidden="true">✳</span>
+                    </div>
+                    <h3>Alongamento<br>na fibra</h3>
+                    <ul class="price-list">
+                        <li><span>Formato almond</span><strong>R$ 180</strong></li>
+                        <li><span>Formato quadrado</span><strong>R$ 170</strong></li>
+                        <li><span>Manutenção</span><strong>R$ 130</strong></li>
+                    </ul>
+                </article>
+
+                <article class="service-card">
+                    <div class="card-heading">
+                        <span class="card-number">02</span>
+                        <span class="card-icon" aria-hidden="true">✳</span>
+                    </div>
+                    <h3>Molde F1</h3>
+                    <ul class="price-list">
+                        <li><span>Alongamento F1</span><strong>R$ 130</strong></li>
+                        <li><span>Manutenção do Molde F1</span><strong>R$ 60</strong></li>
+                    </ul>
+                </article>
+
+                <article class="service-card">
+                    <div class="card-heading">
+                        <span class="card-number">03</span>
+                        <span class="card-icon" aria-hidden="true">✳</span>
+                    </div>
+                    <h3>Banho de gel</h3>
+                    <ul class="price-list">
+                        <li><span>Banho de gel</span><strong>R$ 130</strong></li>
+                        <li><span>Esmaltação em gel</span><strong>R$ 60</strong></li>
+                    </ul>
+                </article>
+
+                <article class="service-card">
+                    <div class="card-heading">
+                        <span class="card-number">04</span>
+                        <span class="card-icon" aria-hidden="true">✳</span>
+                    </div>
+                    <h3>Cuidados</h3>
+                    <ul class="price-list">
+                        <li><span>Spa dos pés</span><strong>R$ 90</strong></li>
+                        <li><span>Manicure e pedicure</span><strong>R$ 60</strong></li>
+                        <li><span>Reposição da unha quebrada</span><strong>R$ 10 <small>/ unidade</small></strong></li>
+                        <li><span>Nail art encapsulada</span><strong>R$ 20 <small>/ o par</small></strong></li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="brand footer-brand" href="#" aria-label="Gislany Lima Nail Studio, início">
+            <span class="brand-mark" aria-hidden="true">g.</span>
+            <span class="brand-name">Gislany Lima<span>nail studio</span></span>
+        </a>
+        <p>Feito com carinho para você.</p>
+        <a class="back-to-top" href="#" aria-label="Voltar ao topo">↑</a>
+    </footer>
+    <script>
+        const ownerPhoto = document.querySelector(".owner-photo");
+        const portraitFrame = document.querySelector(".portrait-frame");
+
+        ownerPhoto.addEventListener("load", () => {
+            ownerPhoto.hidden = false;
+            portraitFrame.classList.add("has-photo");
+        });
+    </script>
+</body>
+</html>
